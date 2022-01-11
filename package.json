@@ -1,28 +1,26 @@
 {
-  "name": "graphql-extractor",
-  "version": "1.0.1",
-  "description": "Extract GraphQL queries and build a map to use as persisted query.",
+  "name": "persist-graphql",
+  "version": "1.0.0",
+  "description": "Persist GraphQL queries and build a map to use as persisted query.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "graphql-extract": "./index.js"
+    "persist-graphql": "./index.js"
   },
   "keywords": [
-    "graphql"
+    "graphql", "persistgraphql"
   ],
   "author": {
-    "name": "Thor(Shenghan) Chen",
-    "email": "zzdjk6@gmail.com>",
-    "url": "https://github.com/zzdjk6"
+    "name": "Azz-eddine BERRAMOU",
+    "email": "azedine.berramou@gmail.com>",
+    "url": "https://github.com/BERRAMOU/persist-graphql"
   },
-  "repository": "github:zzdjk6/graphql-extractor",
+  "repository": "github:BERRAMOU/persist-graphql",
   "license": "MIT",
   "dependencies": {
     "commander": "^2.17.0",
-    "glob": "^7.1.2",
-    "graphql-query-compress": "^1.0.11",
-    "uuid": "^3.3.2"
+    "glob": "^7.1.2"
   }
 }

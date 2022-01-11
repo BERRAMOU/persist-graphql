@@ -3,6 +3,7 @@
 ## Overview
 
 This is a command line tool to scan your ".graphql" files, and then build a `map` json file, which can be used as `persisted query` later on.
+
 Similar to https://github.com/zzdjk6/graphql-extractor besides using simple ids instead of uuid and no graphql compression.
 
 ## How to use?

@@ -1,5 +1,5 @@
 {
-  "name": "persist-graphql",
+  "name": "graphql-persist",
   "version": "1.0.0",
   "description": "Persist GraphQL queries and build a map to use as persisted query.",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "persist-graphql": "./index.js"
+    "graphql-persist": "./index.js"
   },
   "keywords": [
     "graphql", "persistgraphql"

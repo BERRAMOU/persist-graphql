@@ -1,4 +1,4 @@
-# persist-graphql
+# graphql-persist
 
 ## Overview
 
@@ -9,9 +9,9 @@ Similar to https://github.com/zzdjk6/graphql-extractor besides using simple ids 
 ## How to use?
 
 ```bash
-npm install -g persist-graphql
+npm install -g graphql-persist
 
-persist-graphql ./tests/fixtures/ ./tests/output/extracted_queries.json
+graphql-persist ./tests/fixtures/ ./tests/output/extracted_queries.json
 ```
 
 ## Example
